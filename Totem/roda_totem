@@ -1,0 +1,6 @@
+#!/bin/bash
+pcscd
+stty -F /dev/ttyS0 -cooked
+#stty -F /dev/ttyUSB0 -cooked
+cd /home/usuario/Downloads/
+/opt/javafx/bin/javafx -jar Totem.jar

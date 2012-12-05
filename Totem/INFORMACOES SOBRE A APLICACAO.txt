@@ -1,0 +1,15 @@
+Resumo dos pacotes da aplicação
+
+- pacote totem - Inicializador da aplicação
+- pacote control - controles de interface extendidos
+- data - classes responsaveis pela comunicação com o servidor
+- gui - as telas
+	-  Controller.fx: responsavel pela navegação entre as telas;
+-gui.img: imagens da aplicação
+-hwcontrol: responsavel pelo controle da serial
+	- HWController: faz todo o trabalho de envio e recebimento de pacotes pela serial
+	-BikeHWSimulator: Simula o comportamento do HW. Para realizar os testes em loopback (colocar o fio entre os pontos 3 e 4 da serial)
+- Model: São os objetos do dominio
+- Serial: classes de tratamento dos pacotes da serial
+- Service: Classes de apoio ao acesso ao servidor
+
